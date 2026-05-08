@@ -1,0 +1,17 @@
+CREATE DATABASE cargo_system;
+USE cargo_system;
+
+CREATE TABLE Customer (
+    customer_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    phone VARCHAR(15),
+    Address VARCHAR(50)
+);
+
+CREATE TABLE Cargo (
+    cargo_id INT PRIMARY KEY,
+    Description VARCHAR(50),
+    source VARCHAR(50),
+    weight INT,
+    status VARCHAR(20)
+);
